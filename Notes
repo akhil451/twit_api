@@ -1,0 +1,8 @@
+Notes 
+
+1.npm init --> to initialise package.json 
+2.npm install twit --save // save will add it to package.json
+3. in package.json file if you add start: node bot.js , then whenever you give command npm start , then a bot.js file gets loaded .
+4. to access a package  --> var twit = require ('twit')
+5. var config = require(./config)
+   var t =new twit(config);// creates a new object with contents of config file.

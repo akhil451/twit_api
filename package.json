@@ -1,0 +1,19 @@
+{
+  "name": "twitter_api",
+  "version": "1.0.0",
+  "description": "Building a twitter API ",
+  "main": "bot.js",
+  "start":"node bot.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
